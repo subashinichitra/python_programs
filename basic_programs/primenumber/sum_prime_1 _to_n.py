@@ -6,4 +6,4 @@ for num in range(2,n+1):
             break
     else:
         sum=sum+num
-print(sum)` `
+print(sum)
