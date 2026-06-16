@@ -6,4 +6,4 @@ for num in range(2,n+1):
             break
     else:
         count+=1
-print(count)
+print("COUNT:",count)

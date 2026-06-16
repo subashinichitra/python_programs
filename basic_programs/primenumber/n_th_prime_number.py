@@ -9,6 +9,6 @@ for num in range(2,n+1):
             break
     else:
         a.append(num)
-print(a[position-1])
+print(f"{position}th position value is " ,a[position-1])
 
     
