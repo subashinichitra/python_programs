@@ -12,6 +12,6 @@ for i in range(len(temp)):
             flag=1
             break
 if flag==0:
-    print(f"THE GIVEN NUMBER {n} IS A CIRCULAR PRIME")
+    print(f"THE GIVEN NUMBER {number} IS A CIRCULAR PRIME")
 else:
-    print(f"THE GIVEN NUMBER {n} IS NOT A CIRCULAR PRIME")
+    print(f"THE GIVEN NUMBER {number} IS NOT A CIRCULAR PRIME")
