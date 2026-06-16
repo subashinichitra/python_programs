@@ -1,0 +1,17 @@
+number=int(input("ENTER THE NUMBER: "))
+
+temp=str(number)
+flag=0
+
+for i in range(len(temp)):
+    rotate=int(temp[i:]+temp[:i])
+    print(rotate)
+
+    for j in range(2,rotate):
+        if rotate % j ==0:
+            flag=1
+            break
+if flag==0:
+    print(f"THE GIVEN NUMBER {n} IS A CIRCULAR PRIME")
+else:
+    print(f"THE GIVEN NUMBER {n} IS NOT A CIRCULAR PRIME")
