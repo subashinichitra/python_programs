@@ -8,4 +8,4 @@ for i in arr:
 if flag:
     print("Element Found")
 else:
-    print("Element Not Found")
+    print("Element  Is Not Found")
