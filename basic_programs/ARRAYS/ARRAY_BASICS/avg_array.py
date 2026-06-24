@@ -7,4 +7,4 @@ for i in arr:
     count = count + 1
 
 average = sum / count
-print(average)
+print("Average:",average)
