@@ -1,5 +1,5 @@
 
-def prime(tmp):
+def prime(temp):
     for i in range(len(temp)):
         rotate=int(temp[i:]+temp[:i])
         print(rotate)
